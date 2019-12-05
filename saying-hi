@@ -1,0 +1,13 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import re
+
+n=input()
+#print n
+regexp=r'^[Hh][Ii]\s[^Dd]'
+
+for i in range(0,n):
+    s=raw_input()
+    #print s
+    if re.findall(regexp,s):
+        if s:
+            print s
