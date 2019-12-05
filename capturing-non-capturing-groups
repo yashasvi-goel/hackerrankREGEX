@@ -1,0 +1,1 @@
+Regex_Pattern = r'\w*(ok){3}\w*'	# Do not delete 'r'.
