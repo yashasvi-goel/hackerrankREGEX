@@ -1,0 +1,1 @@
+Regex_Pattern = r'[a-zA-z24680]{40}[13579\s\r\t\f\n]{5}$'	# Do not delete 'r'.
